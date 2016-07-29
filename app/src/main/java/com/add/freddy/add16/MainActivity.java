@@ -1,5 +1,6 @@
 package com.add.freddy.add16;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -77,17 +79,99 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
+
+
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_info) {
+           // Intent actividad = new Intent(MainActivity.this,informacion.class);
+            //startActivity(actividad);
+        } else if (id == R.id.nav_asambleas) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/asambleasDeDios.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_sociedad) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/sociedadEsposasDePastores.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_mm) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/ministerioDeLaMujer.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_escuela) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/escuelaBiblica.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_misioneritas) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/misioneritas.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_exploradores) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/exploradoresDelRey.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_misiones) {
+            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            String texto = "http://www.kandamotos.com/fredo_ADD/departamentoDeMisiones.php";
+            Bundle bundle = new Bundle();
+            bundle.putString("TEXT",texto);
+            siguiente.putExtras(bundle);
+            startActivity(siguiente);
+        } else if (id == R.id.nav_seccion_a) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_seccion_b) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_seccion_c) {
 
+        } else if (id == R.id.nav_seccion_d) {
+
+        } else if (id == R.id.nav_seccion_aroma) {
+
+        } else if (id == R.id.nav_vigilias) {
+
+        } else if (id == R.id.nav_kermes) {
+
+        } else if (id == R.id.nav_aniversarios) {
+        } else if (id == R.id.nav_videos_de_lo_que) {
+        } else if (id == R.id.nav_video_de_predicas) {
+        } else if (id == R.id.nav_videos_musicales) {
+        } else if (id == R.id.nav_videos_de_teatros) {
+        } else if (id == R.id.nav_ministerios) {
+        } else if (id == R.id.nav_mariachis) {
+        } else if (id == R.id.nav_sonido) {
+        } else if (id == R.id.nav_gui_telefono) {
+        } else if (id == R.id.nav_Libros) {
+        } else if (id == R.id.nav_mensajes) {
+        } else if (id == R.id.nav_notas_musicales) {
+        } else if (id == R.id.nav_tv) {
+        } else if (id == R.id.nav_radio) {
+        } else if (id == R.id.nav_noticias) {
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

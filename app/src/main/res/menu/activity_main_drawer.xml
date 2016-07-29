@@ -1,25 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/sobre"
+        android:title="Informaciones" />
+    <item android:title="Asambleas de Dios de Bolivia">
+        <menu>
+            <item
+                android:id="@+id/nav_asambleas"
+                android:icon="@drawable/asambleas"
+                android:title="Asambleas de Dios de Bolivia" />
+            <item
+                android:id="@+id/nav_sociedad"
+                android:icon="@drawable/seccion"
+                android:title="Sociedad Esposa de Pastores" />
+            <item
+                android:id="@+id/nav_mm"
+                android:icon="@drawable/seccion"
+                android:title="Ministerio de la Mujer" />
+            <item
+                android:id="@+id/nav_escuela"
+                android:icon="@drawable/seccion"
+                android:title="Escuela Biblica" />
+            <item
+                android:id="@+id/nav_misioneritas"
+                android:icon="@drawable/seccion"
+                android:title="Departamento de Misioneritas" />
+            <item
+                android:id="@+id/nav_exploradores"
+                android:icon="@drawable/seccion"
+                android:title="Exploradores del Rey" />
+            <item
+                android:id="@+id/nav_misiones"
+                android:icon="@drawable/seccion"
+                android:title="Departamento de Misiones" />
+        </menu>
+    </item>
+    <item android:title="Congregaciones">
+        <menu>
+            <item
+                android:id="@+id/nav_seccion_a"
+                android:icon="@drawable/seccion"
+                android:title="Sección A" />
+            <item
+                android:id="@+id/nav_seccion_b"
+                android:icon="@drawable/seccion"
+                android:title="Sección B" />
+            <item
+                android:id="@+id/nav_seccion_c"
+                android:icon="@drawable/seccion"
+                android:title="Sección C" />
+            <item
+                android:id="@+id/nav_seccion_d"
+                android:icon="@drawable/seccion"
+                android:title="Sección D" />
+            <item
+                android:id="@+id/nav_seccion_aroma"
+                android:icon="@drawable/seccion"
+                android:title="Sección Aroma" />
+        </menu>
+    </item>
+    <item android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/nav_vigilias"
+                android:icon="@drawable/happy"
+                android:title="Vigilias" />
+            <item
+                android:id="@+id/nav_kermes"
+                android:icon="@drawable/kemes"
+                android:title="Kermes" />
+            <item
+                android:id="@+id/nav_aniversarios"
+                android:icon="@drawable/aniversaior"
+                android:title="Aniversarios" />
+        </menu>
+    </item>
+    <item android:title="Videos">
+        <menu>
+            <item
+                android:id="@+id/nav_videos_de_lo_que"
+                android:icon="@drawable/videos2"
+                android:title="De lo que te perdiste..." />
+            <item
+                android:id="@+id/nav_video_de_predicas"
+                android:icon="@drawable/play"
+                android:title="Videos de Predicas" />
+            <item
+                android:id="@+id/nav_videos_musicales"
+                android:icon="@drawable/headphones"
+                android:title="Videos Musicales" />
+            <item
+                android:id="@+id/nav_videos_de_teatros"
+                android:icon="@drawable/film"
+                android:title="Videos de Teatros/Scketchs" />
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/nav_ministerios"
+                android:icon="@drawable/music"
+                android:title="Ministerios" />
+            <item
+                android:id="@+id/nav_mariachis"
+                android:icon="@drawable/music"
+                android:title="Mariachis" />
+            <item
+                android:id="@+id/nav_sonido"
+                android:icon="@drawable/sonido"
+                android:title="Sonido y amplificación" />
+            <item
+                android:id="@+id/nav_gui_telefono"
+                android:icon="@drawable/phone"
+                android:title="Guia Telefonica" />
+            <item
+                android:id="@+id/nav_Libros"
+                android:icon="@drawable/book"
+                android:title="Libros de Lectura" />
+            <item
+                android:id="@+id/nav_mensajes"
+                android:icon="@drawable/ic_mensajes"
+                android:title="Mensajes de Dios para tu vida" />
+            <item
+                android:id="@+id/nav_notas_musicales"
+                android:icon="@drawable/notas"
+                android:title="Notas Musicales" />
+        </menu>
+    </item>
+    <item android:title="Comunicaciones">
+        <menu>
+            <item
+                android:id="@+id/nav_tv"
+                android:icon="@drawable/tv"
+                android:title="Televisión" />
+            <item
+                android:id="@+id/nav_radio"
+                android:icon="@drawable/radio"
+                android:title="Radio" />
+            <item
+                android:id="@+id/nav_noticias"
+                android:icon="@drawable/noticias"
+                android:title="Noticias" />
+        </menu>
+    </item>
     <item android:title="Communicate">
         <menu>
             <item
@@ -30,6 +155,7 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
+
         </menu>
     </item>
 
