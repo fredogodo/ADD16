@@ -1,17 +1,15 @@
 package com.add.freddy.add16;
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.webkit.WebView;
 
-/**
- * Created by FREDDY on 28/07/2016.
- */
-public class PaginasWeb extends AppCompatActivity {
+public class Web extends AppCompatActivity {
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.paginaweb);
+        setContentView(R.layout.web);
 
         Bundle bundle = getIntent().getExtras();
         String input = bundle.getString("TEXT");

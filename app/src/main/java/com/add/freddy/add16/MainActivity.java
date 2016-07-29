@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
             //startActivity(actividad);
         } else if (id == R.id.nav_asambleas) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/asambleasDeDios.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_sociedad) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/sociedadEsposasDePastores.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_mm) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/ministerioDeLaMujer.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_escuela) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/escuelaBiblica.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_misioneritas) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/misioneritas.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_exploradores) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/exploradoresDelRey.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_misiones) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
-            Intent siguiente = new Intent(MainActivity.this,PaginasWeb.class);
+            Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/departamentoDeMisiones.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
