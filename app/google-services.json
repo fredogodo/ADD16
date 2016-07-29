@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "340908233196",
+    "firebase_url": "https://add2016-e7e3c.firebaseio.com",
+    "project_id": "add2016-e7e3c",
+    "storage_bucket": "add2016-e7e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340908233196:android:f076d7301b226182",
+        "android_client_info": {
+          "package_name": "com.add.freddy.add16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340908233196-9vq3occnqfugqa4pj98ou20fe4rts03e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp8fw-t3RTfknMDCWk8nS3KR5v-hYveck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
