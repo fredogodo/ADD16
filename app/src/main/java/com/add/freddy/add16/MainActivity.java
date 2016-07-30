@@ -166,14 +166,14 @@ public class MainActivity extends AppCompatActivity
             startActivity(siguiente);
         } else if (id == R.id.nav_seccion_a) {
             Toast.makeText(MainActivity.this, "Cargando Informacion de la base de datos de la Sección A ", Toast.LENGTH_SHORT).show();
-           // Intent ventana = new Intent(MainActivity.this,Seccion_a.class);
-           //startActivity(ventana);
+            Intent ventana = new Intent(MainActivity.this,Seccion_a_tab.class);
+           startActivity(ventana);
         } else if (id == R.id.nav_seccion_b) {
             Toast.makeText(MainActivity.this, "Cargando Informacion de la base de datos de la Sección B ", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_seccion_c) {
             Toast.makeText(MainActivity.this, "Cargando Informacion de la base de datos de la Sección C ", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_seccion_d) {
-
+            Toast.makeText(MainActivity.this, "Cargando Informacion de la base de datos de la Sección D ", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_seccion_aroma) {
 
         } else if (id == R.id.nav_vigilias) {

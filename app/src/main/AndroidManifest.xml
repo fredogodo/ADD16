@@ -21,6 +21,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Web" />
+        <activity
+            android:name=".Seccion_a_tab"
+            android:label="@string/title_activity_seccion_a_tab"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
