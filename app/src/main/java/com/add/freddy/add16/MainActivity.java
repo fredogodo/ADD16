@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
            // Intent actividad = new Intent(MainActivity.this,informacion.class);
             //startActivity(actividad);
         } else if (id == R.id.nav_asambleas) {
-            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
             Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/asambleasDeDios.php";
             Bundle bundle = new Bundle();
