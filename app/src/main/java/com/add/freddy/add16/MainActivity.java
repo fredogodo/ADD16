@@ -1,5 +1,6 @@
 package com.add.freddy.add16;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -109,13 +110,19 @@ public class MainActivity extends AppCompatActivity
            // Intent actividad = new Intent(MainActivity.this,informacion.class);
             //startActivity(actividad);
         } else if (id == R.id.nav_asambleas) {
-            Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
+            ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+            progressDialog.setTitle("Cargando...");
+            progressDialog.setMessage("Información de la base de datos...");
+            progressDialog.show();
+            //Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
             Intent siguiente = new Intent(MainActivity.this,Web.class);
             String texto = "http://www.kandamotos.com/fredo_ADD/asambleasDeDios.php";
             Bundle bundle = new Bundle();
             bundle.putString("TEXT",texto);
             siguiente.putExtras(bundle);
             startActivity(siguiente);
+            //progressDialog.setCancelable(true);
+            progressDialog.dismiss();
         } else if (id == R.id.nav_sociedad) {
             Toast.makeText(MainActivity.this, "          Cargando...          ", Toast.LENGTH_SHORT).show();
             Intent siguiente = new Intent(MainActivity.this,Web.class);
