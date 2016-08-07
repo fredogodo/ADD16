@@ -22,7 +22,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="IGLESIAS SECCIÓN &quot;A&quot;"
+                    android:text="IGLESIAS SECCIÓN &quot;D&quot;"
                     android:id="@+id/textView304"
                     android:textStyle="bold"
                     android:layout_centerVertical="true"
@@ -49,7 +49,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="CONGREGACIÓN VILLA INGAVI"
+                            android:text="Torre Fuerte"
                             android:id="@+id/textView31"
                             android:textColor="#FFF"
                             android:textStyle="bold"
@@ -89,7 +89,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Pascual Mamani Limachi"
+                                android:text="Julio César Yana Pajarito"
                                 android:id="@+id/textView33"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -108,7 +108,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="77599078"
+                                android:text="75223103"
                                 android:id="@+id/textView35"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -127,7 +127,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Av. Arapata Esquina"
+                                android:text="Av. Collasuyo 5620"
                                 android:id="@+id/textView37"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -136,7 +136,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Canaviri Nº 2014"
+                                android:text="Z/ Tahuantinsuyo Fren. Plza. El Sol"
                                 android:id="@+id/textView38"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -188,7 +188,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Tabernaculo Jordán"
+                            android:text="Centro Bethel"
                             android:id="@+id/textView3"
                             android:textColor="#FFF"
                             android:textStyle="bold"
@@ -228,7 +228,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Silverio Condori Limachi"
+                                android:text="Hugo Cori Colque"
                                 android:id="@+id/textView6"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -247,7 +247,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="71245562"
+                                android:text="79558123 / 2861475"
                                 android:id="@+id/textView8"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -266,7 +266,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Calle Arturo Valle Nº 3061"
+                                android:text="Calle Abel Iturralde Nº 50"
                                 android:id="@+id/textView10"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -275,7 +275,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Zona 16 de julio"
+                                android:text="Zona Villa Tunari"
                                 android:id="@+id/textView11"
                                 android:layout_gravity="center_horizontal"
                                 android:textColor="#FFFFFF" />
@@ -3421,685 +3421,6 @@
                             android:layout_height="wrap_content"
                             android:text="Mas..."
                             android:id="@+id/button25"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentStart="true" />
-                    </RelativeLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView251"
-                android:layout_gravity="center_horizontal" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:background="#039BE5" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#01579B" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Roca Vencedor"
-                            android:id="@+id/textView252"
-                            android:textColor="#FFF"
-                            android:textStyle="bold"
-                            android:layout_centerVertical="true"
-                            android:layout_centerHorizontal="true" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:background="@drawable/logoadd" >
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:id="@+id/textView253" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="PASTOR-PRESIDENTE"
-                                android:id="@+id/textView254"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Valentín Quispe Cancari"
-                                android:id="@+id/textView255"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="TEL/CEL."
-                                android:id="@+id/textView256"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="73178523/2884168"
-                                android:id="@+id/textView257"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="DIRECCIÓN"
-                                android:id="@+id/textView258"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Zona Villa Ingavi"
-                                android:id="@+id/textView259"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Av. Aygachi 1014"
-                                android:id="@+id/textView260"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#01579B" >
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Mas..."
-                            android:id="@+id/button26"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentStart="true" />
-                    </RelativeLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView261"
-                android:layout_gravity="center_horizontal" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:background="#757575" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#424242" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Shalom"
-                            android:id="@+id/textView262"
-                            android:textColor="#FFF"
-                            android:textStyle="bold"
-                            android:layout_centerVertical="true"
-                            android:layout_centerHorizontal="true" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:background="@drawable/logoadd" >
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:id="@+id/textView263" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="PASTOR-PRESIDENTE"
-                                android:id="@+id/textView264"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Ancelmo Quisbert Yujra"
-                                android:id="@+id/textView265"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="TEL/CEL."
-                                android:id="@+id/textView266"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="73046538"
-                                android:id="@+id/textView267"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="DIRECCIÓN"
-                                android:id="@+id/textView268"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="C/ Coro Coro Nº 37  1 Sec."
-                                android:id="@+id/textView269"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Alto Lima Cancha Alambrado"
-                                android:id="@+id/textView270"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#424242" >
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Mas..."
-                            android:id="@+id/button27"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentStart="true" />
-                    </RelativeLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView271"
-                android:layout_gravity="center_horizontal" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:background="#F06292" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#E91E63" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Filadelfia"
-                            android:id="@+id/textView272"
-                            android:textColor="#FFF"
-                            android:textStyle="bold"
-                            android:layout_centerVertical="true"
-                            android:layout_centerHorizontal="true" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:background="@drawable/logoadd" >
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:id="@+id/textView273" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="PASTOR-PRESIDENTE"
-                                android:id="@+id/textView274"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Edwin Segales Villegas"
-                                android:id="@+id/textView275"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="TEL/CEL."
-                                android:id="@+id/textView276"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="72501455"
-                                android:id="@+id/textView277"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="DIRECCIÓN"
-                                android:id="@+id/textView278"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Urbanización Villa Huayna Potosi"
-                                android:id="@+id/textView279"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Calle Coronilla"
-                                android:id="@+id/textView280"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#E91E63" >
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Mas..."
-                            android:id="@+id/button28"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentStart="true" />
-                    </RelativeLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView281"
-                android:layout_gravity="center_horizontal" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:background="#BA68C8" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#9C27B0" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Adulam-Refugio de Salvación"
-                            android:id="@+id/textView282"
-                            android:textColor="#FFF"
-                            android:textStyle="bold"
-                            android:layout_centerVertical="true"
-                            android:layout_centerHorizontal="true" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:background="@drawable/logoadd" >
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:id="@+id/textView283" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="PASTOR-PRESIDENTE"
-                                android:id="@+id/textView284"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Miguel Huanca Quispe"
-                                android:id="@+id/textView285"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="TEL/CEL."
-                                android:id="@+id/textView286"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="71279712"
-                                android:id="@+id/textView287"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="DIRECCIÓN"
-                                android:id="@+id/textView288"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Z. Alto Lima 1ra. Sección c.Sucre "
-                                android:id="@+id/textView289"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="entre Jonson Nº 3031"
-                                android:id="@+id/textView290"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#9C27B0" >
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Mas..."
-                            android:id="@+id/button29"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentStart="true" />
-                    </RelativeLayout>
-                </LinearLayout>
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView291"
-                android:layout_gravity="center_horizontal" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="330dp"
-                android:background="#2196F3" >
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#0D47A1" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Sanidad Divina"
-                            android:id="@+id/textView292"
-                            android:textColor="#FFF"
-                            android:textStyle="bold"
-                            android:layout_centerVertical="true"
-                            android:layout_centerHorizontal="true" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="230dp"
-                        android:background="@drawable/logoadd" >
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:id="@+id/textView293" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="PASTOR-PRESIDENTE"
-                                android:id="@+id/textView294"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="Miguel Barrionuevo Mamani"
-                                android:id="@+id/textView295"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="TEL/CEL."
-                                android:id="@+id/textView296"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="75277961"
-                                android:id="@+id/textView297"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="DIRECCIÓN"
-                                android:id="@+id/textView298"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFF"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="V. Ingavi c/Puerto Perez 1065"
-                                android:id="@+id/textView299"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="entre Av. Alcoche"
-                                android:id="@+id/textView300"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="#FFFFFF" />
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:background="#0D47A1" >
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Mas..."
-                            android:id="@+id/button30"
                             android:layout_alignParentBottom="true"
                             android:layout_alignParentRight="true"
                             android:layout_alignParentEnd="true"

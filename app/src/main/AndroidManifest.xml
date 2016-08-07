@@ -24,6 +24,18 @@
         <activity
             android:name=".Seccion_a_tab"
             android:label="@string/title_activity_seccion_a_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seccion_b_tab"
+            android:label="@string/title_activity_seccion_b_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seccion_c_tab"
+            android:label="@string/title_activity_seccion_c_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seccion_d_tab"
+            android:label="@string/title_activity_seccion_d_tab"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -8,4 +8,7 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_seccion_a">Seccion_a</string>
     <string name="title_activity_seccion_a_tab">Seccion_a_tab</string>
+    <string name="title_activity_seccion_b_tab">Seccion_b_tab</string>
+    <string name="title_activity_seccion_c_tab">Seccion_c_tab</string>
+    <string name="title_activity_seccion_d_tab">Seccion_d_tab</string>
 </resources>
